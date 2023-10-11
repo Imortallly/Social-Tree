@@ -11,11 +11,13 @@ body {
     align-items: center;
     width: 100vh;
     height: 100vh;
-    background: linear-gradient(0, #BB99DD, #706c6c);
-} 
+    background-color: #6A8BBF;
+    background-size: cover;
+    background-repeat: repeat;
+}   
 main {
-    border: 2px solid #BB99DD;
-    background-color:#f0e0ff ;
+    border: 2px solid rgb(148, 181, 237);
+    background-color:#b9ddee ;
     width: 30rem;
     height: 43rem;
     display: flex;
@@ -33,6 +35,7 @@ main {
 }
 img {
     border-radius: 50%;
+    width: 14rem;
 }
 h3 {
     margin: 0;
@@ -44,7 +47,7 @@ h3 {
     width: 30rem;
 }
 .btn-one {
-	color: #BB99DD;
+	color: #77add9;
 	transition: all 0.3s;
 	position: relative;
     font-size: 25px;
@@ -68,8 +71,8 @@ h3 {
 	border-bottom-width: 2px;
 	border-top-style: solid;
 	border-bottom-style: solid;
-	border-top-color: #BB99DD;
-	border-bottom-color: #BB99DD;
+	border-top-color: #77add9;
+	border-bottom-color: #77add9;
 	transform: scale(0.1, 1);
 }
 .btn-one:hover span {
@@ -97,5 +100,16 @@ h3 {
 svg {
     padding-right: 1rem;
     padding-left: 1rem;
+    color: #77add9;
 }
-@media (max-width: 600px) {}
+@media (max-width: 700px) {
+    .body {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Estilos para telas maiores (a partir de 601px) */
+@media (min-width: 601px) {
+    /* Estilos para telas maiores aqui */
+}
